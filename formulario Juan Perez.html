@@ -1,0 +1,72 @@
+<form action="" method="">
+    <h2><head>Formulario para contactar a Juan Perez</head></h2>
+    
+        <p>
+            <h4>
+            <label for="Emp">EMPRESA</label><br>
+            <input type="text" name="Empresa" />
+        </p><br>
+        <p>
+            <label for="Pue">PUESTO OFRECIDO</label><br>
+            <input type= "text" name="puesto" />
+        </p><br>
+        <p>
+            <label for="Rem">REMUNERACION OFRECIDA</label><br>
+            <input type= "text" name="Remun" />&nbsp&nbsp&nbsp&nbsp
+            </h4>
+            <label for="moneda">Valor expresado en:</label><br>
+            <select name="titulo">
+                <option value='Pesos'>Pesos Argentinos</option>
+                <option value='Dolar'>Dolares</option>
+                <option value='Euros'>Euros</option>
+            </select>
+        </p><br>
+    
+    <label for="Jornada">Tipo de Jornada</label>
+        <ul>
+            <li>
+                <input type="radio" name="jornada" value="Part-Time">
+                <label>Part-Time</label>
+            </li>
+            <li>
+                <input type="radio" name="jornada" value="Full-Time">
+                <label>Full-Time</label>
+            </li>
+        </ul><br>
+        <label> Modalidad Laboral</label>
+        <ul>
+           <li>
+               <input type="checkbox" name="modalidad[]" value="Home Office" id="Home Office" />
+               <label for="Home Office">Home Office</label>
+           </li>
+            <li>
+                <input type="checkbox" name="modalidad[]" value="Presencial" id="Presencial" />
+                <label for="Presencial">Presencial</label>
+            </li>
+            <li>
+                <input type="checkbox" name="modalidad[]" value="Mixto" id="mixto" />
+                <label for="mixto">Mixto</label>
+            </li>
+            
+        </ul> <br>
+        
+        <p>
+            <label for='motivo'>Por que le gustaria que me incorpore en su empresa</label><br>
+            <textarea name='motivo'></textarea>
+        </p>
+        
+        <p>
+            
+            <label for="Email">E-mail de contacto</label><br>
+            <input type="text" name="Email" />
+            
+        </p>
+        
+        <p>
+            <input type='submit' value='Enviar' />
+            <input type='reset' value='Borrar' />
+        </p>
+    </form>
+    
+    </body>
+    </html>

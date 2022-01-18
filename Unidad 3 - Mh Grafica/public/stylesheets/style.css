@@ -1,0 +1,216 @@
+/*
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Hind Madurai', sans-serif;
+font-family: 'Montserrat', sans-serif;
+color: #8e285e; (Rosa)
+color: #478689; (Verde)
+
+*/
+footer{
+    
+    background-color: #aaa;
+}
+
+
+.nav-item{
+    margin-left: 10px;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    font-weight: bold;
+    color: #478689 !important;
+    background-color: transparent;
+    transition: all .3s ease-in-out;
+    font-size: 17px;
+    
+}
+
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.bajada{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.social-media{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: 5px;
+    left: 1120px;
+    
+}
+
+a{
+    color: #478689; 
+       
+}
+
+a:link {
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #8e285e;
+    background-color: transparent;
+    transition: all .2s ease-in-out;
+    font-size: 16px;
+    font-weight: bold;
+    
+  }
+
+  a:active {
+    color: #478689;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  
+
+.hero{
+    
+    background: url(../images/Web\ hero.png) no-repeat;
+    background-size: cover;
+    height: 0.5vh;
+    min-height: 600px;
+    color:white;
+    
+}
+
+/* NOVEDADES */
+
+.lista-novedades{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+.lista-novedades li{
+    margin: 4px 0;
+}
+
+.lista-novedades li a{
+    background-color: #fff;
+    font-family: 'Hind Madurai', sans-serif;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #478689;
+    transition: all .2s ease-in-out;
+    display: block;
+}
+
+.lista-novedades li a:hover{
+    color: #8e285e;
+    background-color: #dadada;
+}
+
+.lista-novedades li a img{
+    ;
+    filter: grayscale();
+    transition: all .2s ease-in-out;
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+
+.lista-novedades li a img:hover{
+    filter: none;
+    margin-right: 1.4rem;
+    opacity: 1;
+}
+
+.modal-content{
+    background-image: url(../img/Web\ hero.png);
+    background-size: 600px;
+
+}
+
+/* FIN NOVEDADES */
+
+
+/* TESTIMONIOS */
+.testimonios{
+    color: #8e285e;
+    background-color: white;
+    padding-bottom: 4rem !important;
+}
+
+.testimonio{
+    text-align: center;
+    padding: 50px;
+}
+
+
+.carousel .carousel-indicators li {
+    background-color: #478689;
+}
+
+.carousel .carousel-indicators li.active {
+    background-color: #478689;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 25px;
+  color: #478689;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 25px;
+  color: #478689;
+}
+
+/* FIN TESTIMONIOS */
+
+/* INICIO HISTORIA */
+#historia{
+    color: white;
+    background-color: #8e285e;
+    
+}
+
+/* FIN HISTORIA */
+
+/* INICIO NOSOTROS */
+
+.card{
+    background-color: #478689;
+    color: white;
+    
+}
+.card-img-top{
+    height: auto;
+    width: auto;
+    max-width: 600px;
+    max-height: 500px;
+}
+
+/* FIN NOSOTROS */
+
+
+/* INICIO CONOCENOS */
+
+.btn {
+    background-color:#478689;
+}
+.btn:hover {
+    background-color:#8e285e;
+}
+
+.form-control:focus {
+     border-color: #8e285e;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(142, 40, 94, 0.6); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(142, 40, 94, 0.6);
+}
+
+
+/* FIN CONOCENOS */
